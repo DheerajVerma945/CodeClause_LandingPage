@@ -11,7 +11,7 @@ function Header() {
         <header className="bg-gradient-to-r from-purple-600 to-purple-800 flex items-center justify-between p-4 relative shadow-lg">
             <a 
                 href="/" 
-                className="text-lg md:text-xl lg:text-3xl font-mono text-white hover:text-yellow-300 transition duration-300 ease-in-out transform hover:scale-110">
+                className="text-lg md:text-xl lg:text-3xl  text-white hover:text-yellow-300 transition duration-300 ease-in-out transform hover:scale-110">
                 Lorem Ipsum
             </a>
             <button 

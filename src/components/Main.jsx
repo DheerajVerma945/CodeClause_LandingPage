@@ -42,15 +42,20 @@ function Main() {
 
     return (
         <main className="text-white">
-            <div className="flex flex-col bg-gradient-to-tr from-purple-800 via-purple-600 to-purple-400 rounded-b-md items-center justify-center h-screen text-center">
+            <div className="flex flex-col p-10 bg-gradient-to-tr from-purple-800 via-purple-600 to-purple-400  items-center justify-center h-screen text-center">
                 <h1 className="text-5xl font-bold mb-4">Lorem Ipsum</h1>
                 <p className="text-lg mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button className="bg-white text-purple-600 px-6 py-3 rounded-lg shadow-lg hover:bg-gray-200 transition">
-                    Explore Now
+                <button className="bg-white text-purple-600 px-6 py-3 rounded-lg shadow-lg hover:bg-gray-300 hover:-translate-y-1 transition-transform duration-500">
+                    Get Started
                 </button>
+                <svg className="absolute bottom-0 left-0 w-full h-24 -mb-20" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                    <path d="M0,0 C720,100 720,0 1440,0 L1440,100 L0,100 Z" fill="white" />
+                </svg>
+
             </div>
 
-            <section className="py-12 px-4">
+
+            <section className="py-1 px-4">
                 <h2 className="text-4xl font-bold text-center mb-8 text-purple-700">Features</h2>
                 <div className="flex flex-col md:flex-row justify-center items-start space-y-6 md:space-y-0 md:space-x-8">
                     <div className="bg-white text-purple-600 rounded-lg p-6 shadow-lg w-full max-w-xs transition-transform transform hover:scale-105">
@@ -110,8 +115,6 @@ function Main() {
                     </button>
                 </div>
             </section>
-
-
         </main>
     );
 }
