@@ -55,7 +55,7 @@ function Main() {
             </div>
 
 
-            <section className="py-1 px-4">
+            <section className="py-12 px-4">
                 <h2 className="text-4xl font-bold text-center mb-8 text-purple-700">Features</h2>
                 <div className="flex flex-col md:flex-row justify-center items-start space-y-6 md:space-y-0 md:space-x-8">
                     <div className="bg-white text-purple-600 rounded-lg p-6 shadow-lg w-full max-w-xs transition-transform transform hover:scale-105">
